@@ -1,0 +1,99 @@
+.myBG{
+    background: url('../img/kitchen/douglas-lopez-vlx0BwZlUXQ-unsplash.jpg');
+    height: 100vh;  
+    background-size: cover;
+    display: block;
+}
+
+.navBar{
+    display: block;
+    position: sticky;
+    overflow: hidden;
+    justify-content: space-between;
+    top: 0;
+}
+
+.bg_navBar{
+    background-color: rgba(255, 255, 255, 0.2); /* Warna putih dengan 20% opasitas */
+    backdrop-filter: blur(10px); /* Efek blur */
+    border-bottom-right-radius:  20px;
+    border-bottom-left-radius:  20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk kesan mengambang */
+    transition: transform 0.3s ease; /* Transisi smooth */
+}
+
+
+.intro {
+    height: 50%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.5;
+    text-shadow: 3px 2px grey;
+    letter-spacing: 1px;
+}
+
+.ourMenu {
+    background: url('../img/kitchen/kyle-head-PW8K-W-Kni0-unsplash.jpg');
+    display: block;
+    background-size: cover; 
+    justify-content: center;
+    align-items: center;
+}
+
+.sushiImage {
+    height:200px;
+    width: 200px;
+    position: sticky;    
+    align-items: center;
+    justify-content: center;
+}
+
+.responsiveImage {    
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.tittleMenu{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    justify-content: end;
+    text-align: center;
+    text-shadow: 3px 2px grey;
+    font-size: 3rem;
+    color: white ;
+}
+.cardText{
+    text-align: left;
+    color: white; 
+    font-weight: bold;    
+}
+
+.responsiveImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsiveImage .card {
+    background-color: rgba(255, 255, 255, 0.2); /* Warna putih dengan 20% opasitas */
+    backdrop-filter: blur(10px); /* Efek blur */
+    border-radius: 15px; /* Membuat sudut rounded */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk kesan mengambang */
+    transition: transform 0.3s ease; /* Transisi smooth */
+}
+
+.responsiveImage .card:hover {
+    transform: scale(1.05); /* Zoom in saat hover */
+    
+}
+
+
