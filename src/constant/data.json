@@ -1,11 +1,12 @@
-[{
+[
+  {
     "nama": "Sushi Nigiri",
     "img": "/img/main_sushi/flyd-2i0it6LpwsI-unsplash.jpg",
     "desc": "A slice of shrimp on top of a small ball of vinegared rice"
-},{
+  },
+  {
     "nama": "Maguro Nigiri",
     "img": "/img/main_sushi/flyd-eo9SeUWbbSo-unsplash.jpg",
     "desc": "A slice of fish tuna on top of a small ball of vinegared rice"
-}
-
+  }
 ]
